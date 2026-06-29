@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tiffins Website</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+
+    
+
+    <nav>
+
+        <h1 class="logo">Tiffins</h1>
+
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Reviews">Reviews</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            
+        </ul>
+
+    </nav>
+
+    
+
+    <section id="Home" class="hero">
+
+        <div class="home-content">
+
+            <h1>Welcome to Our Tiffin Center</h1>
+
+            <h3>Fresh Taste, Homemade Happiness!</h3>
+
+            <p>
+                Enjoy delicious and healthy homemade tiffins
+                prepared with love and fresh ingredients.
+            </p>
+
+            <button>Order Now</button>
+
+        </div>
+
+    </section>
+
+    
+
+    <section id="Menu" class="homemade">
+
+        <h1 class="menu-title">Our Menu</h1>
+
+        <div class="menu-bar">
+
+            <div class="menu-box">
+            <img src="dosa.jpeg" alt="">
+            <h2>Dosa</h2>
+            <p>₹25</p>
+            <button onclick="addToCart('Dosa',25)">Add to Cart</button>
+            </div>
+
+            <div class="menu-box">
+                <img src="idly.jpeg" alt="">
+                <h2>Idly</h2>
+                <p>₹20</p>
+                <button onclick="addToCart('idly',20)">Add to Cart</button>
+            </div>
+            
+
+            <div class="menu-box">
+                <img src="poori.jpeg" alt="">
+                <h2>Poori</h2>
+                <p>₹30</p>
+                <button onclick="addToCart('poori',30)">Add to Cart</button>
+            </div>
+            
+
+            <div class="menu-box">
+                <img src="pongal.jpeg" alt="">
+                <h2>Pongal</h2>
+                <p>₹35</p>
+                <button onclick="addToCart('Pongal',35)">Add to Cart</button>
+            
+            </div>
+
+            <div class="menu-box">
+                <img src="upma.jpeg" alt="">
+                <h2>Upma</h2>
+                <p>₹25</p>
+                <button onclick="addToCart('Upma',25)">Add to Cart</button>
+            
+            </div>
+
+        </div>
+
+    </section>
+    <section id="Reviews" class="reviews">
+        <h1>Customer Reviews</h1>
+        <div class="review-box">
+            <p>"Very tasty and fresh food!"</p>
+            <h3>- Ramesh</h3>
+        </div>
+
+        <div class="review-box">
+            <p>"Best homemade tiffins near us."</p>
+            <h3>- Suma</h3>
+        </div>
+        <div class="review-box">
+        <p>"Food tastes just like home."</p>
+        <h3>- Keerthi</h3>
+    </div>
+
+    <div class="review-box">
+        <p>"Affordable prices and quick service."</p>
+        <h3>- Rahul</h3>
+    </div>
+
+    <div class="review-box">
+        <p>"Loved the dosa and pongal!"</p>
+        <h3>- Priya</h3>
+    </div>
+
+    </section>
+    
+    <section id="Contact" class="contact">
+
+        <h1>Contact Us</h1>
+
+        <div class="contact-box">
+
+            <p>📍 G.Kothapalli, Vallur, Kadapa</p>
+
+            <p>📞 +91 9876543210</p>
+
+            <p>📧 tiffinscenter@gmail.com</p>
+
+            <p>⏰ 7:00 AM - 10:00 PM</p>
+
+        </div>
+
+    </section>
+<footer>
+    <p>© 2026 Tiffins Center | Fresh Food • Homemade Taste</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
